@@ -139,13 +139,13 @@
             if (channel == "SVT 1") {
             getData('https://raw.githubusercontent.com/IngridKutra/Tv-program/master/channels/channel1.json', all);
         } else if (channel == "SVT 2"  ) {
-            getData('https://tv-api-kn3ny.ondigitalocean.app/SVT%202.json', all);
+            getData('https://raw.githubusercontent.com/IngridKutra/Tv-program/master/channels/channel1.json', all);
         }else if (channel == "SVT Barn"  ) {
-            getData('https://tv-api-kn3ny.ondigitalocean.app/SVT%20Barn.json', all);
+            getData('https://raw.githubusercontent.com/IngridKutra/Tv-program/master/channels/channel1.json', all);
         }else if (channel == "Kunskapskanalen"  ) {
-        getData('https://tv-api-kn3ny.ondigitalocean.app/Kunskapskanalen.json', all);
+        getData('https://raw.githubusercontent.com/IngridKutra/Tv-program/master/channels/channel1.json', all);
         }else if (channel == "SVT 24"  ) {
-            getData('https://tv-api-kn3ny.ondigitalocean.app/SVT%2024.json', all);
+            getData('https://raw.githubusercontent.com/IngridKutra/Tv-program/master/channels/channel1.json', all);
         }
     };
   
