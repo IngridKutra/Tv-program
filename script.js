@@ -56,12 +56,7 @@
             });  
             }
 
-            function filtrering(data){
-                console.log(data);
-                let tid = data.filter((passandeTid) => new Date(passandeTid.start) > new Date());
-                render(tid);
-               
-            }
+          
             
             
             function compare(a,b) {
