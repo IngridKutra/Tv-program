@@ -55,6 +55,13 @@
                 console.log(err);
             });  
             }
+
+            function filtrering(data){
+                console.log(data);
+                let tid = data.filter((passandeTid) => new Date(passandeTid.start) > new Date());
+                render(tid);
+               
+            }
             
             
             function compare(a,b) {
@@ -129,7 +136,7 @@
         function setChannel(channel, all){
             document.getElementById("js-title").innerHTML = channel;
             if (channel == "SVT 1") {
-            getData('https://api.tvmaze.com/shows/1', all);
+            getData('https://raw.githubusercontent.com/IngridKutra/Tv-program/master/channels/channel1.json', all);
         } else if (channel == "SVT 2"  ) {
             getData('https://tv-api-kn3ny.ondigitalocean.app/SVT%202.json', all);
         }else if (channel == "SVT Barn"  ) {
