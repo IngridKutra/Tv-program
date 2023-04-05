@@ -38,6 +38,11 @@
             document.getElementById("js-schedule").innerHTML = '';
             var imgLoading = document.getElementById("js-loading");
             imgLoading.setAttribute("class","loading-spinner");    
+            function filtrering(data){
+                console.log(data);
+                let tid = data.filter((passandeTid) => new Date(passandeTid.start) > new Date());
+                render(tid);
+            }
             
             fetch(url)
             
