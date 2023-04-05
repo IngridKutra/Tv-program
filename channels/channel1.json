@@ -1,7 +1,4 @@
-{
-    "channel_name": "Channel 1",
-    "date": "2023-04-05",
-    "programs": [
+[
       {
         "title": "Morning News",
         "time": "6:00 AM",
@@ -63,5 +60,5 @@
         "description": "Stay up late and enjoy a great movie."
       }
     ]
-  }
+
   
